@@ -1,0 +1,30 @@
+*{
+    background: linear-gradient(135deg, #ffffff, #cccccc);
+}
+main{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    height: 100vh;
+}
+.timer{
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+    background: none;
+    justify-content: center;
+}
+.container{
+    box-shadow: 0px 0px 5px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.btn{
+    background: none;
+    border-radius:19px;
+    margin: 10px;
+    border-color : pink; 
+}
